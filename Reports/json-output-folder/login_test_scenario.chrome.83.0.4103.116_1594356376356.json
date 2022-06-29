@@ -1,0 +1,462 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Test Scenario",
+    "line": 2,
+    "id": "login-test-scenario",
+    "tags": [],
+    "uri": "features/LoginTest.feature",
+    "elements": [
+      {
+        "id": "login-test-scenario;test-1",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Test 1",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to portal",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2014000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user verifies username field",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user verifies password field",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user verifies login button",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user provides valid credentials, and clicks on Login",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user navigates to portal",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2047000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-scenario;test-2",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Test 2",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "user navigates to portal",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user verifies three values in the listgroup",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user verifies second list item's value is set to \"List Item 2\"",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user verifies the second list item's badge value is \"6\"",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-scenario;test-3",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Test 3",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "user navigates to portal",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "user verifies  \"Option 1\" is the default selected value",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user selects \"Option 3\" from the select list",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-scenario;test-4",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Test 4",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "user navigates to portal",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2014000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "user verifies first button is enabled",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "user verifies the second button is disabled",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-scenario;test-5",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Test 5",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 32
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "user navigates to portal",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user clicks on a button",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "user verifies success message is displayed",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "user verified button is now disabled",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-scenario;test-6",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Test 6",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 39
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "user navigates to portal",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "verify element in row \"2\" column \"2\" is \"Ventosanzap\"",
+            "match": {
+              "location": "JSFiles/StepDefinitions/LoginTests.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "83.0.4103.116"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
